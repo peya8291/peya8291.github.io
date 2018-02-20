@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Blog</title>
+    <style>
+            body {background-color: powderblue;font-family: fantasy;font-size: 150%; margin: 20px}
+            #alert{boder: 1px solid black; background:red; padding: 5px; display:none; width: 600px}
+            #main{font-family: Arial; font-size: 100%;}
+            /*table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding: 5px;
+              text-align: left;}
+            table#t01 {
+              width: 100%;
+                background-color: #f1f1c1;
+              }*/
+              table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100;
+              }
+
+              td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+              }
+
+              tr:nth-child(even) {
+                background-color: #dddddd;
+              }
+    </style>
+  </head>
+  <body>
+          <div class = "navigation", id="nav">
+              <h1>Blog Links</h1>
+              <ul>
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href ="index.html">Archive</a></li>
+                    <li><a href ="index.html">About my blog</a></li>
+              </ul>
+          </div>
+
+          <div class="mainpart", id = "main">
+              <h1>My life is a jounary</h1>
+              <p>I want to decide by myself which route of the journey I will explore instead of letting my parents decide this for me.
+                I want to pursue my own dreams instead of the ones my parents had but failed to achieve.
+                Being an obedient child and an appendent of my parents for about thirty years, I decided to have a new role,
+                which is to be myself and to be my own dream chaser.
+              </p>
+              <h2>When I was in China</h2>
+              <p>After I graduated from the university, my parents wanted me to have a stable and predictable job,
+                so I applied for a job at a government agency and became a policeman,
+                even though I wanted to be a software engineer.
+              </p>
+              <p>
+              <img src="my131.jpg" alt="Chinese Policeman" width="320" height="240">
+              </p>
+              <h2>Change my life</h2>
+              <p>
+                Listening to my heart, I know I would like my life to be filled with more challenges.
+                I decided to follow my heart and change my role from a Chinese police officer
+                (for which I know what I would be doing in 30 years) into an American student
+                (for which it is hard for me to predict what life would be even in 3 years).
+                But I am very excited about this new role and think I am going to have an adventure
+                which I chose for myself and confront the biggest challenge so far in my life.
+              </p>
+              <h2>As a student at CU Boulder</h2>
+              <table id="t01">
+                <tr>
+                  <th>CourseNumber</th>
+                  <th>CourseName</th>
+                </tr>
+                <tr>
+                  <td>CSCI2270</td>
+                  <td>Data Structures</td>
+                </tr>
+                <tr>
+                  <td>CSCI2400</td>
+                  <td>Computer Systems</td>
+                </tr>
+                <tr>
+                  <td>CSCI3155</td>
+                  <td>Principles of Programming Languages</td>
+                </tr>
+                <tr>
+                  <td>CSCI4104</td>
+                  <td>Algorithms</td>
+                </tr>
+                <tr>
+                  <td>CSCI3002</td>
+                  <td>Human-Centered Computing Foundations</td>
+                </tr>
+                <tr>
+                  <td>CSCI3287</td>
+                  <td>Database and Information Systems</td>
+                </tr>
+                <tr>
+                  <td>CSCI3308</td>
+                  <td>Software Engineering Methods and Tools</td>
+                </tr>
+                <tr>
+                  <td>CSCI4830</td>
+                  <td>Input, Interaction, and Accessibility</td>
+                </tr>
+              </table>
+
+              <h1>Comments</h1>
+              <div role="alert" id="alert">Sorry! Posting comments is currently disabled.</div>
+			           <div>
+				               <p><label for="name">
+					                    Your name:
+				                  </label>
+				                  <input id="name"></p>
+				               <p><label for="email">
+					                    Your email address:
+				                  </label>
+				                  <input id="email"></p>
+				               <p><label for="comments">
+					                    Your comment:
+				                  </label>
+				                  <input id="comments"></p>
+				               <p><button id="commentButton">Submit comment</button></p>
+			            </div>
+          </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	        <script src="blog.js"></script>
+  </body>
+</html>
