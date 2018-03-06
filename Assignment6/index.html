@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment6</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="phone.css">
+
+	</head>
+	<body>
+		<div id="tabs">
+			<button class="pure-button" id="tab_Dialer">Dialer</button>
+			<button class="pure-button" id="tab_ContactList">Contact List</button>
+			<button class="pure-button" id="tab_ContactAdd">Add Contact</button>
+			<button class="pure-button" id="tab_About">About this Project</button>
+		</div>
+
+ <div id="content">
+			<div id="contentDialer">
+				<h1>Dialer</h1>
+				 		<form class="pure-form pure-form-stacked">
+		 	  				<input id="Dname" placeholder=" " class="pure-input-1-2" type="text">
+		 				</form>
+						<div id="Dialerkey">
+								<button class="pure-button" id="B1">1</button>
+								<button class="pure-button" id="B2">2</button>
+								<button class="pure-button" id="B3">3</button>
+						</div>
+						<div id="Dialerkey">
+								<button class="pure-button" id="B4">4</button>
+								<button class="pure-button" id="B5">5</button>
+								<button class="pure-button" id="B6">6</button>
+						</div>
+						<div id="Dialerkey">
+								<button class="pure-button" id="B7">7</button>
+								<button class="pure-button" id="B8">8</button>
+								<button class="pure-button" id="B9">9</button>
+						</div>
+						<div id="Dialerkey">
+								<button class="pure-button" id="BS">*</button>
+								<button class="pure-button" id="B0">0</button>
+								<button class="pure-button" id="BJ">#</button>
+						</div>
+						<div id="Dialer_controls">
+								<button class="pure-button" id="BD">Dial</button>
+								<button class="pure-button" id="BC">Clear</button>
+						</div>
+		</div>
+
+		<div id="contentList">
+			<h1>Contact List</h1>
+			 <div>
+			    <button class="pure-button">Zening</button>
+			    <button class="pure-button">Manyi</button>
+			    <button class="pure-button">Yifan</button>
+			</div>
+			<div>
+				 <button class="pure-button">YangYang</button>
+				 <button class="pure-button">Yushuo</button>
+				 <button class="pure-button">Zhixing</button>
+		  </div>
+		</div>
+
+		<div id="contentAdd">
+			<h1>Add Contact</h1>
+				<form class="pure-form pure-form-stacked">
+
+        		<label for="name">Name</label>
+        		<input id="name" class="pure-input-1-4" placeholder="Peng Yan">
+
+        		<label for="Phone number">Phone number</label>
+        		<input id="Phone number" class="pure-input-1-4" placeholder="123-456-789">
+
+						<label for="Email address">Email address</label>
+        		<input id="Email address"class="pure-input-1-4" placeholder="yanguan@sina.com">
+
+            <div>
+							<button type="Add contact" class="Add contact pure-button">Add contact</button>
+        			<button type="Clear" class="Clear pure-button">Clear</button>
+						</div>
+    		</fieldset>
+			</form>
+		</div>
+
+		<div class="About" id="content_about">
+			  <h1>About this Project</h1>
+			  <p>From my testing of the magnifier, I found there are three different views: full screen, lens, or docked. Each of them could 
+           use different situation. For example, when you want input something, full screen should be better. when you read something,
+					 lens should be better.  For the docked viewAnd I think it almost unuseful, we can remove this view. I want to add a design
+					 feature that the users can change lens size. Users can choose the most comfortable size.
+				</p>
+		</div>
+		  <div id="lowVisionToggle">
+				<a href="index-large.html">Toggle Low Vision Mode</a>
+			</div>
+      <br>
+ </div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="phone.js"></script>
+  </body>
+</html>

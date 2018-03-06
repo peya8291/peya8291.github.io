@@ -1,0 +1,30 @@
+/*tabs*/
+#tabs { background: #000; padding-top: 15px; padding-left: 15px;}
+#tabs button { margin-right: 10px; margin-bottom: 10px;}
+#content {padding: 20px;}
+#content h1 {margin-top: 0; font-size: x-large;}
+
+/* dialer */
+#Dname { font-size: large; text-align: left; width: 90%;}
+#Dialerkey button { margin-top: 10px; margin-right: 10px; font-size: 200%; }
+#Dialer_controls button {margin-top: 20px; font-size: 200%;}
+
+/* contact list */
+#contentList button { margin-top: 10px; }
+
+/* add contact */
+#contentAdd label { margin-top: 20px;}
+#contentAdd button { margin-top: 10px; margin-right: 10px;}
+#contentAdd input { width: 300px;}
+
+/* low vision */
+body { background-color: black; color: white; }
+body, h1, button { font-size: 200%; }
+.pure-button { background-color: black; color: white; border: 1px solid white; }
+.tab-button { background-color: black; color: white; border: 1px solid white; font-size: 160%; }
+.tab-button:focus {color:yellow;}
+
+
+#lowVisionToggle { margin-top: 20px; }
+
+#Dname { background-color: black; font-size: 200%; border: 1px solid white;}

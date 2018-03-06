@@ -1,0 +1,20 @@
+#tabs { background: #ccc; padding-top: 10px; padding-left: 10px;}
+#tabs button { width: 150px; margin-right: 5px; height: 34px; border-bottom: 1px solid #ccc; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;}
+#content {padding: 20px;}
+#content h1 {margin-top: 0; font-size: x-large;}
+
+
+/* dialer */
+#Dname { font-size: large; text-align: left; width: 90%;}
+#Dialerkey button { margin-top: 15px; margin-right: 10px; width: 130px; height: 60px; font-size: x-large; }
+#Dialer_controls button {margin-top: 15px; margin-right: 10px; width: 203px; height: 60px; font-size:  x-large; vertical-align: middle;}
+
+/* contact list */
+#contentList button { margin-top: 10px; height: 40px;}
+
+/* add contact */
+#contentAdd label { margin-top: 20px;}
+#contentAdd button { margin-top: 10px; margin-right: 10px;}
+#contentAdd input { width: 300px;}
+
+#lowVisionToggle { margin-top: 10px; }
