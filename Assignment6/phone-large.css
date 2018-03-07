@@ -1,5 +1,5 @@
 /*tabs*/
-#tabs { background: #000; padding-top: 15px; padding-left: 15px;}
+#tabs { background: black; padding-top: 15px; padding-left: 15px;}
 #tabs button { margin-right: 10px; margin-bottom: 10px;}
 #content {padding: 20px;}
 #content h1 {margin-top: 0; font-size: x-large;}
